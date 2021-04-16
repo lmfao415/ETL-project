@@ -1,5 +1,5 @@
 # ETL-project
-This ETL focuses on data from a Kaggle page on species diversity found in United States National Parks. The first dataset is a CSV file that holds data for all National Parks such as park name, state, and coordinates. The second dataset used is a CSV file that holds information on different species found in the parks. This file includes information such as different species scientific name, common name, and family.
+This ETL focuses on data from a [Kaggle page](https://www.kaggle.com/nationalparkservice/park-biodiversity) on species diversity found in United States National Parks. The first dataset is a CSV file that holds data for all National Parks such as park name, state, and coordinates. The second dataset used is a CSV file that holds information on different species found in the parks. This file includes information such as different species scientific name, common name, and family.
 
 The goal of this project is to combine the two so that presence of certain species can be examined by park. It will help determine the biodiversity in each park as well as show the location of certain species. By using a PostgreSQL relational database, the two tables can be joined and queries can easily be made to explore the complete set of species information with the associated parks.
 
